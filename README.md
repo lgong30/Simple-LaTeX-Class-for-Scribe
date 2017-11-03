@@ -22,6 +22,6 @@ The following gives you a simple example of how to use this latex class.
 \end{document}
 ```
 
-After compiling, you will get the results: [example.pdf](./example.pdf).
+After compiling, you will get [example.pdf](./example.pdf).
 
 
