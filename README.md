@@ -1,13 +1,13 @@
 # Simple LaTeX Class for Scribe
-This is a simple lecture LaTeX class for students to create lecture scribe. It is based on [the scribe of MIT 6.851](http://courses.csail.mit.edu/6.851/fall17/scribe/lec1.zip).
+This is two simple lecture LaTeX classs for students to create lecture scribe and reports for assignments --- [scribe.cls](./scribe.cls) and [report.cls](./report.cls). They are based on [the scribe of MIT 6.851](http://courses.csail.mit.edu/6.851/fall17/scribe/lec1.zip).
 
 
 ## Usage
 
-The following gives you a simple example of how to use this latex class.
+The following gives you a simple example of how to use `scribe.cls`, that is identical for `report.cls`.
 
 ```TeX
-\documentclass[11pt]{lecture}
+\documentclass[11pt]{scribe}
 \usepackage{lipsum}
 \begin{document}
 \course{CS 6210/CS 4210 ADVANCED OPERATING SYSTEMS}
@@ -22,6 +22,6 @@ The following gives you a simple example of how to use this latex class.
 \end{document}
 ```
 
-After compiling, you will get [example.pdf](./example.pdf).
+After compiling, you will get [scribe.pdf](./scribe.pdf).
 
 
